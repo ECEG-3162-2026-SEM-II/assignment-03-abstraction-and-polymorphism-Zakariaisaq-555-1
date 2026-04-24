@@ -10,6 +10,8 @@ public class Main {
 
         home.add(new SmartLight("Living Room Lamp"));
         home.add(new SmartThermostat("Hallway Nest"));
+        home.add(new SmartGarageDoor("Garage Door Opener"));
+        home.add(new SmartAirPurifier("Bedroom Air Purifier"));
 
         System.out.println("--- Activating Smart Home ---");
 
