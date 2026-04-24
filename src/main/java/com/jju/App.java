@@ -3,7 +3,7 @@ package com.jju;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Main {
+public class App {
     public static void main(String[] args) {
         // Polymorphic List: Holds different types of devices under one parent type
         List<SmartDevice> home = new ArrayList<>();

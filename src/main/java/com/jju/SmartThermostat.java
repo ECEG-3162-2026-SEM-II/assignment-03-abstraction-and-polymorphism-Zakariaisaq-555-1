@@ -1,6 +1,6 @@
 package com.jju;
 public class SmartThermostat extends SmartDevice {
-    private int temperature;
+    
 
     public SmartThermostat(String name) {
         super(name);
