@@ -6,7 +6,7 @@ import java.util.List;
 public class App {
     public static void main(String[] args) {
         // Polymorphic List: Holds different types of devices under one parent type
-        List<SmartDevice> home = new ArrayList<>();
+        List<SmartDevice> home = new ArrayList<SmartDevice>();
 
         home.add(new SmartLight("Living Room Lamp"));
         home.add(new SmartThermostat("Hallway Nest"));
