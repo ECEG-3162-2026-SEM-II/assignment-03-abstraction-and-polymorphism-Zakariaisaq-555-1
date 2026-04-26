@@ -47,8 +47,9 @@ public class SmartHomeTest {
     public void testMainUsesPolymorphicList() throws Exception {
         // This checks if the student is using the Parent type in their List
         // It's a "soft" check for the presence of ArrayList<SmartDevice>
-        String content = java.nio.file.Files.readString(java.nio.file.Paths.get("src/Main.java"));
+        String content = java.nio.file.Files.readString(java.nio.file.Paths.get("src/App.java"));
+        String content = java.nio.file.Files.readString(java.nio.file.Paths.get("src/main/java/com/jju/App.java"));
         assertTrue(content.contains("ArrayList<SmartDevice>") || content.contains("List<SmartDevice>"), 
-            "Main.java should use a polymorphic List of SmartDevice.");
+            "App.java should use a polymorphic List of SmartDevice.");
     }
 }

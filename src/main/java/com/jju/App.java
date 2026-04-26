@@ -3,13 +3,15 @@ package com.jju;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Main {
+public class App {
     public static void main(String[] args) {
         // Polymorphic List: Holds different types of devices under one parent type
-        List<SmartDevice> home = new ArrayList<>();
+        List<SmartDevice> home = new ArrayList<SmartDevice>();
 
         home.add(new SmartLight("Living Room Lamp"));
         home.add(new SmartThermostat("Hallway Nest"));
+        home.add(new SmartGarageDoor("Garage Door Opener"));
+        home.add(new SmartAirPurifier("Bedroom Air Purifier"));
 
         System.out.println("--- Activating Smart Home ---");
 
